@@ -1,0 +1,79 @@
+.hacemos-ini{
+    padding: 4rem;
+    justify-content: space-between;
+    
+    height: 600px;
+}
+
+.imgmo{
+    float: left;
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+    padding-bottom: 100px;
+}
+
+.titulo-se{
+    font-size: 50px;
+}
+
+.descri-movil p{
+        width: 50%;
+        float: right;
+        font-size: 20px;
+}
+.descri-movil h2{
+    text-align: right;
+    padding-right: 9.5em;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+    .descri-movil h2{
+        padding-right: 0;
+        margin-right: 100px;
+    }
+
+    .descri-movil p{
+
+        font-size: 20px;
+        bottom: 50px;
+    }
+
+    .imgmo{
+        height: 400px;
+        width: 400px;
+
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .descri-movil h2{
+        position: left;
+        width: 300px;
+        height: 400px;
+        padding-right: 2em;
+    }
+    .descri-movil p{
+        width: 300px;
+        float: left;
+        font-size: 20px;
+        padding-top: 35px;
+        padding-right: 30px;
+
+    }
+
+
+
+
+
+
+}
+

@@ -1,0 +1,276 @@
+.header{
+
+    background: black;
+    color: white;
+    padding: 0.5rem 0.5 0 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding-left: 13em;
+    padding-right: 13em;
+    justify-content: space-between;
+    
+}
+.menu-icon{
+    display: inline-block;
+}
+.button-m{
+    display: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2em;
+    transition: all 0.4s linear;
+    border-radius: 8px;
+    
+}
+.navigation ul li a:hover{
+    background-color: white;
+    
+}
+
+.img-empre{
+    position: relative;
+    width: auto;
+    height: 80px;
+}
+
+
+
+@media screen and (max-width: 780px){
+
+        .imagenes  img{
+            float: none;
+            width: 500px;
+            height: 500px;
+
+        }
+        .button-m{
+            display: block;
+            background-color: black;
+            padding-top: 5px;
+            height: 50px;
+            margin-top: 10px;
+            
+        }
+        .menu-icon{
+
+            display: inline-block;
+            cursor: pointer;
+            color:white;
+            
+            font-size: 12px;
+            
+            justify-content: space-between;
+        }
+     
+        .navigation ul li{
+            display: none;
+        }
+        .navigation ul li.show{
+            display: block;
+            text-align: right;
+        }
+        
+
+        .navigation ul li a{
+            color: white;
+            float: none;
+        }
+        .container{
+            width: 400px;
+            justify-content: space-between;
+        }
+
+        .imagenes img{
+            width: 500px;
+            height: 500px;
+        }
+
+
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 780px){
+
+
+    .img-empre{
+        float: left;
+        padding-left: 0;
+    }
+
+    .logo-nav-container {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .button-m{
+        
+        background-color: black;
+        padding-top: 5px;
+        height: 50px;
+        margin-top: 10px;
+        
+    }
+}
+
+
+/*justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;*/
+
+        
+@media screen and (max-width: 780px){
+
+    .container{
+        height: auto;
+    }
+    .img-empre{
+        height: 50px;
+        left: 70px;
+        float: left;
+        position: fixed;
+        
+    }
+    .menu-icon{
+
+        display: inline-block;
+        cursor: pointer;
+        color:white;
+        
+        font-size: 12px;
+        
+        justify-content: space-between;
+    }
+ 
+    .navigation ul li{
+        display: none;
+    }
+    .navigation ul li.show{
+        display: block;
+        text-align: right;
+    }
+    
+
+    .navigation ul li a{
+        color: white;
+        float: none;
+    }
+
+    .button-m{
+        
+        background-color: black;
+        top: 0px;
+        height: 50px;
+        padding-bottom: 5px;
+        
+        
+    }
+    .button-m {
+        margin: 5px 0 10px ;
+    }
+
+    .navigation ul li.show{
+        
+        
+        
+        border-radius: 8px;
+    }
+
+    .navigation ul li a:hover{
+        background-color: gray;
+        
+    }
+    .show-b{
+        margin-right: 25px;
+    }
+
+}
+
+@media screen and (min-height: 1000px)  {
+
+       .container{
+        width: 85%;
+        max-width: 850px;
+        margin: 0 auto;
+        padding-left: 38em;
+        padding-right: 5em;
+        justify-content: space-between;
+        
+        
+       }
+      .button-m{
+          float: right;
+          
+      }
+
+}
+
+@media screen and (min-height: 1000px) and (min-width: 1000px)  {
+
+    .navigation ul li{
+        display: none;
+    }
+    .navigation ul li.show{
+        display: inline-flex;
+        text-align: right;
+    }
+    .button-m{
+        display: block;
+        
+    }
+    .menu-icon{
+        color: white;
+    }
+    .container{
+        width: 85%;
+        max-width: 850px;
+        margin: 0 auto;
+        padding-left: 5em;
+        padding-right: 5em;
+        justify-content: space-between;
+        
+        
+       }
+
+       .navigation li.show{
+        
+        margin-top:40px ;
+
+
+
+    }
+
+
+}
